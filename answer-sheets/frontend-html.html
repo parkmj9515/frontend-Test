@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FrontEnd : HTML</title>
+</head>
+
+<body>
+
+    <h1>FrontEnd 평가 답안지 1: HTML</h1>
+    <p>수강생 이름: 박민준<!-- 수강생 이름을 기입하세요 --></p>
+
+    <h2>목차</h2>
+    <!-- 평가 지시서의 지시대로 아래 항목들을 이용, 목차를 만들어 주십시오. (하이퍼링크 포함) -->
+
+        <ul>
+            <li><a href="frontend-html.html">FrontEnd 평가 답안지 1: HTML</a></li>
+            <li><a href="frontend-css.html">FrontEnd 평가 답안지 2: CSS</a></li>
+            <li><a href="frontend-js.html">FrontEnd 평가 답안지 3: JavaScript</a></li>
+        </ul>
+    
+
+    <h2>FrontEnd 평가 답안지 1: HTML</h2>
+
+    <h3>HTML</h3>
+    <!-- 아래 문단의 내용을 평가 지시서의 지시대로 개행해 주십시오 -->
+    <p>HTML (HyperText Markup Language)은</br> 웹 페이지를 만들기 위한 표준 마크업 언어입니다.</br>
+        텍스트, 이미지, 링크 등의 콘텐츠를 구조화하여 웹 브라우저에서 표시합니다.</br>
+        웹 페이지의 기본 골격을 구성합니다.</p>
+
+    <h3>이미지</h3>
+    <!-- 평가 지시서의 지시대로 images 폴더의 html-logo-640.png 파일을 표시해 주십시오 -->
+     <img src="/images/html-logo-640.png" alt="HTML로고" width="100px">
+
+    <h3>테이블</h3>
+    <!-- 평가 지지서의 지시대로 테이블을 만들어 주십시오 -->
+    <table border=1px>
+       
+        <thead>
+            <tr>
+                <th colspan="2">헤더 1 (2열점유)</th>
+                <th>헤더 2</th>
+                <th>헤더 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1열 1행</td>
+                <td>1행 2열</td>
+                <td colspan="2">1행 3열</td>
+                
+            </tr>
+            <tr>
+                <td>2행 2열</td>
+                <td>2행 3열</td>
+                <td>2행 4열</td>
+            </tr>
+            <tr>
+
+                <td>3행 1열</td>
+                <td>3행 2열</td>
+                <td>3행 3열</td>
+                <td>3행 4열</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>HTML form</h3>
+    <!-- 평가 지시서의 지시대로 HTML FORM을 만들어 주십시오 -->
+    
+            <p>선호하는 과일 선택 방식</p>
+            <label><input type="radio" name="fruit" value="fruit" checked> 신선한 과일</label>
+            <label><input type="radio" name="fruit" value="juice"> 주스</label>
+            <label><input type="radio" name="fruit" value="dried fruit"> 말린 과일</label>
+            <label><input type="radio" name="fruit" value="can"> 통조림</label>
+        
+            <p>휴가 기간 활동을 선택하세요</p>
+            <label><input type="checkbox" name="activity" value="Beach"> 해변 가기</label>
+            <label><input type="checkbox" name="activity" value="travel"> 등산 하기</label>
+            <label><input type="checkbox" name="activity" value="reading book"> 책 읽기</label>
+            <label><input type="checkbox" name="activity" value="rest"> 집에서 휴식하기</label>
+    
+            <p><input type="submit" value="제출">
+                <input type="submit" value="다시작성"></p>
+   
+</body>
+
+</html>
